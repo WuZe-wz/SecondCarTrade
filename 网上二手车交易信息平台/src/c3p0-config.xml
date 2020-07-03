@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+ 
+
+  <named-config name="com.dgut.javaweb"> 
+  	<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+  	<property name="jdbcUrl">jdbc:mysql://localhost:3306/SecondCarTrade?serverTimezone=Hongkong</property>
+  	<property name="user">root</property>
+  	<property name="password">wuzedb100</property>
+  	
+    <property name="acquireIncrement">2</property>
+    <property name="initialPoolSize">2</property>
+    <property name="minPoolSize">2</property>
+    <property name="maxPoolSize">10</property>
+ 
+  </named-config>
+</c3p0-config>
